@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Learning Java
 This is the repository for the LinkedIn Learning course Learning Java. The full course is available from [LinkedIn Learning][lil-course-url].
 
@@ -14,3 +15,7 @@ _Software Developer_
 
 [lil-course-url]: https://www.linkedin.com/learning/learning-java-4
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2825378/2825378-1584377756312-16x9.jpg
+=======
+# java-101
+Learning_path java 101
+>>>>>>> 91ead9269aca2abcac34391aa82a69d9d9611669
