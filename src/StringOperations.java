@@ -1,4 +1,5 @@
 package src;
+import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -51,6 +52,16 @@ public class StringOperations {
         }
         return sb.toString();
     }
-
+    //How many senteces in a paragraph
+    public int sentecesString(String s){
+        //Count how many senteces are in a paragraph
+        String[] senteces = s.split("\\.");
+        return senteces.length;
+    }
+    //How many words
+    public wordCount (String s){
+        String[] words = s.split(" ");
+        return words.length;
+    }
 
 }
