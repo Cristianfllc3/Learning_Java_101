@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String args[]) {
+        /*
         int a = 3;
         int b = 4;
         int c = 6;
@@ -14,6 +15,14 @@ public class Main {
         int R2 = t2.method_direct();
         System.out.println("Result with method_args is : " + R);
         System.out.println("Result with method_direct is : " + R2);
+        */
+        System.out.println("Enter your name to reverse it:");
+        Scanner sc = new Scanner(System.in);
+        String sc_input = sc.next();
+        StringOperations sp = new StringOperations();
+        String show = sp.reverseString(sc_input);
+        //String show1 = sp.reverseString("arroz");
+        System.out.println("Your name reverse is: " + show + " The original is: "+ sc_input);
 
     }
 

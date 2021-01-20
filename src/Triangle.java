@@ -1,7 +1,7 @@
 package src;
 
 public class Triangle {
-
+    //Well it not a triangle :)
     int A;
     int B;
     int C;
