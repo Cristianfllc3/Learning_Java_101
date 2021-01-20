@@ -59,7 +59,7 @@ public class StringOperations {
         return senteces.length;
     }
     //How many words
-    public wordCount (String s){
+    public int wordCount (String s){
         String[] words = s.split(" ");
         return words.length;
     }
