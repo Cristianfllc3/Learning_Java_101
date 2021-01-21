@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class StringOperations {
 
     public String StringObj (){
-
     //StringBuilder
     StringBuilder sbuilder = new StringBuilder("abc");
     sbuilder.append("cde");
@@ -62,6 +61,29 @@ public class StringOperations {
     public int wordCount (String s){
         String[] words = s.split(" ");
         return words.length;
+    }
+    //to replace
+    //String stg = text.replace("word_to_replace", "replace")
+    public String countVowelsConsonants(String str)
+    {
+        String s = (str.toLowerCase().trim());
+        char[] charArray = s.toCharArray();
+        int countVowels = 0;
+        int countConsonants = 0;
+        //TYPE 1 char[] vowels = {'a','e','i','o','u','y'};
+        String vowels = "aeiouy";
+        for (char a: charArray){
+            //TYPE 1
+            //if(a == vowels[0] || a == vowels[1]  ||  a == vowels[2] || a == vowels[3] || a == vowels[4] || a == vowels[5])
+            if (vowels.indexOf(a)!=-1)
+            {
+                countVowels++;
+            }
+            else {
+                countConsonants++;
+            }
+        }
+        return "Count of vowels: "+countVowels + "  Count of consonants:  "+countConsonants;
     }
 
 }

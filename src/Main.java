@@ -16,13 +16,20 @@ public class Main {
         System.out.println("Result with method_args is : " + R);
         System.out.println("Result with method_direct is : " + R2);
         */
-        System.out.println("Enter your name to reverse it:");
+
+        //For class StringOperations
+        System.out.println("Enter the string:");
         Scanner sc = new Scanner(System.in);
         String sc_input = sc.next();
         StringOperations sp = new StringOperations();
+        /*
         String show = sp.reverseString(sc_input);
-        //String show1 = sp.reverseString("arroz");
+        String show1 = sp.reverseString("arroz");
         System.out.println("Your name reverse is: " + show + " The original is: "+ sc_input);
+        */
+        String countVC = sp.countVowelsConsonants(sc_input);
+        System.out.println("> - - "+countVC);
+
 
     }
 
