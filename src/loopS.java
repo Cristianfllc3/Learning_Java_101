@@ -48,4 +48,15 @@ public class loopS {
         Arrays.stream(arrayString).forEach(r::concat);
         return r;
     }
+
+    //it is no a loops but i like a lot
+    //it it a overload method that allow add n args to the methods really cool
+    public int multiArgs (int... values)
+    {
+        var v = 0;
+        for (int val: values) {
+            v += val;
+        }
+        return v;
+    }
 }
