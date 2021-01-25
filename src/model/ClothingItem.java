@@ -17,7 +17,7 @@ public class ClothingItem {
         this.price = price;
         this.quantity = quantity;
     }
- 
+
     public String getSize() {
         return size;
     }
