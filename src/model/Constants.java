@@ -9,4 +9,6 @@ public class Constants {
 
     //creating this class, it is possible created instance of this class and use this constants
 
+    //IMPORTANT it is necessary know the difference in constants and enum
+    //See enum class example
 }

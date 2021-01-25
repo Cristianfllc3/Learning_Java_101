@@ -16,6 +16,7 @@ Java is one of the top five programming languages, and is used for websites, emb
 [Java-11 Plus Essential Training](https://www.linkedin.com/learning/java-11-plus-essential-training/create-instance-fields-and-methods?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56d8919392015a1a081f9141)
 
 
-
+**Todd Perkins**  
+[Learning Java Applications](https://www.linkedin.com/learning/learning-java-applications-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56d8919392015a1a081f9141)
 
 
