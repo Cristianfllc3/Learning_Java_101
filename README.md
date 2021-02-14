@@ -20,11 +20,11 @@ Java is one of the top five programming languages, and is used for websites, emb
 [Learning Java Applications](https://www.linkedin.com/learning/learning-java-applications-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56d8919392015a1a081f9141)
 
 
-**Example_Interface**
-    public class Example_Interface {
-        public static void main(String[] args) { Cat c = new Cat(); System.out.println(c.roar());   }
-    }
-    class Cat implements Animal{   public boolean roar() {  return true;  }
-    }
-    interface Animal{ abstract boolean roar();
-    }
+**Example_Interface**  
+    public class Example_Interface {  
+        public static void main(String[] args) { Cat c = new Cat(); System.out.println(c.roar());   }  
+    }  
+    class Cat implements Animal{   public boolean roar() {  return true;  }  
+    }  
+    interface Animal{ abstract boolean roar();  
+    }  
